@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import TodoComposablePractice from './components/Todos/TodoComposablePractice.vue';
 import TodoDependencyPractice from './components/Todos/TodoDependencyPractice.vue';
 import TodoLifeCyclePractice from './components/Todos/TodoLifeCyclePractice.vue';
 import TodoPractice from './components/Todos/TodoPractice.vue'
@@ -16,6 +17,8 @@ import TodoPractice from './components/Todos/TodoPractice.vue'
      <hr />
     <!-- Depedency, injection 실습 컴포넌트 -->
      <TodoDependencyPractice/>
+     <hr />
+     <TodoComposablePractice/>
   
   </div>
 </template>

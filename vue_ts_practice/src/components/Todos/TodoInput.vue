@@ -7,7 +7,7 @@ const emit = defineEmits<{
 
 const todoText = ref<string>("")
 
-const handlelAdd = () : void => {
+const handleAdd = () : void => {
     if (!todoText.value.trim()) return
     emit('add', todoText.value)
     todoText.value = ""
@@ -18,10 +18,10 @@ const handlelAdd = () : void => {
     <div class="input-box">
         <input
             v-model="todoText"
-            @keyup.enter="handlelAdd"
+            @keyup.enter="handleAdd"
             placeholder="할 일을 입력하세요"
         />
-        <button @click="handlelAdd">추가</button>
+        <button @click="handleAdd">추가</button>
     </div>
 </template>
 
