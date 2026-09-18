@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import TodoDependencyPractice from './components/Todos/TodoDependencyPractice.vue';
 import TodoLifeCyclePractice from './components/Todos/TodoLifeCyclePractice.vue';
 import TodoPractice from './components/Todos/TodoPractice.vue'
 </script>
@@ -12,7 +13,10 @@ import TodoPractice from './components/Todos/TodoPractice.vue'
     <hr />
     <!-- 라이프사이클 실습 컴포넌트 -->
      <TodoLifeCyclePractice />
-    <!-- 앞으로 배울 실습 컴포넌트들 -->
+     <hr />
+    <!-- Depedency, injection 실습 컴포넌트 -->
+     <TodoDependencyPractice/>
+  
   </div>
 </template>
 
