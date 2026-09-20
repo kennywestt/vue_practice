@@ -3,6 +3,7 @@ import TodoComposablePractice from './components/Todos/TodoComposablePractice.vu
 import TodoDependencyPractice from './components/Todos/TodoDependencyPractice.vue';
 import TodoLifeCyclePractice from './components/Todos/TodoLifeCyclePractice.vue';
 import TodoPractice from './components/Todos/TodoPractice.vue'
+import TodoPinia from './components/Todos/TodoPinia.vue';
 import { RouterLink, RouterView } from 'vue-router';
 </script>
 
@@ -29,6 +30,8 @@ import { RouterLink, RouterView } from 'vue-router';
      </nav>
      <hr />
      <RouterView />
+     <hr />
+     <TodoPinia />
   
     </main>
 </template>
