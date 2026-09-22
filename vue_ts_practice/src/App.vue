@@ -5,6 +5,7 @@ import TodoLifeCyclePractice from './components/Todos/TodoLifeCyclePractice.vue'
 import TodoPractice from './components/Todos/TodoPractice.vue'
 import TodoPinia from './components/Todos/TodoPinia.vue';
 import { RouterLink, RouterView } from 'vue-router';
+import TodoAxiosPractice from './components/Todos/TodoAxiosPractice.vue';
 </script>
 
 <template>
@@ -32,6 +33,8 @@ import { RouterLink, RouterView } from 'vue-router';
      <RouterView />
      <hr />
      <TodoPinia />
+     <hr />
+     <TodoAxiosPractice />
   
     </main>
 </template>
