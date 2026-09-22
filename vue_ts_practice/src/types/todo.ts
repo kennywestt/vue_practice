@@ -6,3 +6,11 @@ export interface Todo {
   text: string;
   completed: boolean;
 }
+
+
+export interface ApiTooResponse {
+  userId: number;
+  id: number;
+  title: string;
+  completed: boolean;
+}
